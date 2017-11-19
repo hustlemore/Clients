@@ -12,5 +12,5 @@ mail ("contact@hustlemo.re", //Enter your E-Mail
       " Name:$name \n Email:$email \n Message: $text", //E-Mail included
       "Content-type:text/plain; charset=utf-8");
 
-header ("Location: http://wearesupermodels.com/Number_countdown/Video/thanks.html");
+header ("Location: thanks.html");
 ?>
