@@ -17,5 +17,5 @@ $result = $MailChimp->call('lists/subscribe', array(
                 'send_welcome'      => false,
             ));
 //print_r($result);
-header ("Location: http://wearesupermodels.com/Number_countdown/Video/thanks_sub.html");
+header ("Location: thanks_sub.html");
 ?>
