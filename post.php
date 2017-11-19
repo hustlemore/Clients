@@ -12,5 +12,5 @@ mail ("contact@hustlemo.re", //Enter your E-Mail
       " Name:$name \n Email:$email \n Message: $text", //E-Mail included
       "Content-type:text/plain; charset=utf-8");
 
-header ("Location: https://hustlemore.github.io/dev/thanks.html");
+header ("Location: dev/thanks.html");
 ?>
