@@ -17,5 +17,5 @@ $result = $MailChimp->call('lists/subscribe', array(
                 'send_welcome'      => false,
             ));
 //print_r($result);
-header ("Location: \thanks_sub.html");
+header ("Location: https://hustlemore.github.io/dev/thanks_sub.html");
 ?>
