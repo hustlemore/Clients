@@ -23,10 +23,10 @@
   <link href="css/adaptive.min.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
+  <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-
+  <![endif]-->
   
   
 
@@ -43,13 +43,13 @@
           <h1>A Human Behavior Agency</h1>
           <!--Conuntdown-->
           <div class="soon" id="soon-sep" data-scale-max="l" data-separator="." data-layout="group label-hidden" data-face="slot slide down" data-reflect="false"><span class="soon-placeholder"></span>
-          </div><span class="descr">Hustlemore is a branding, marketing and product development company with one mission: to help make your vision a reality.<br> We are the Adrien to your Rocky.</span>  <a href="#" class="button btnwhite" data-toggle="modal" data-target="#not">Holla</a>
+          </div><span class="descr">Hustlemore is a branding, marketing and product development company with one mission: to help make your vision a reality.<br> <h3>We are the Adrien to your Rocky.</h3></span>  <a href="#" class="button btnwhite" data-toggle="modal" data-target="#not">Holla</a>
           <ul class="social">
             <li><a href="https://www.facebook.com/hustlemorelabs" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
               <li><a href="https://www.linkedin.com/company/10374879/" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
-              <li><a href="https://twitter.com/hustlemorelabs" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <li><a href="http://twitter.com/hustlemorelabs" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://www.instagram.com/hustlemorelabs/" data-toggle="tooltip" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </li>
@@ -95,236 +95,264 @@
       <div class="col-md-12 titile">
         <h2>Our projects</h2>
       </div>
-      <div id="js-filters-masonry-projects" class="cbp-l-filters-buttonCenter">
-        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-            All <div class="cbp-filter-counter"></div>
+       <div class="clearfix">
+        <div id="js-filters-juicy-projects" class="cbp-l-filters-button cbp-l-filters-left">
+            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                All <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".identity" class="cbp-filter-item">
+                Identity <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".web-design" class="cbp-filter-item">
+                Web Design <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".graphic" class="cbp-filter-item">
+                Graphic <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".logos" class="cbp-filter-item">
+                Logo <div class="cbp-filter-counter"></div>
+            </div>
         </div>
-        <div data-filter=".identity" class="cbp-filter-item">
-            Identity <div class="cbp-filter-counter"></div>
-        </div>
-        <div data-filter=".web-design" class="cbp-filter-item">
-            Web Design <div class="cbp-filter-counter"></div>
-        </div>
-        <div data-filter=".graphic" class="cbp-filter-item">
-            Graphic <div class="cbp-filter-counter"></div>
-        </div>
-        <div data-filter=".logos" class="cbp-filter-item">
-            Logo <div class="cbp-filter-counter"></div>
-        </div>
-        <div data-filter=".logos, .graphic" class="cbp-filter-item">
-            Logo & Graphic <div class="cbp-filter-counter"></div>
+
+        <div id="js-sort-juicy-projects" class="cbp-l-sort cbp-l-filters-right">
+            <div class="cbp-l-dropdown">
+                <div class="cbp-l-dropdown-wrap">
+                    <div class="cbp-l-dropdown-header">Original sorting</div>
+                    <div class="cbp-l-dropdown-list">
+                        <div class="cbp-l-dropdown-item cbp-sort-item cbp-l-dropdown-item--active" data-sort="">Original sorting</div>
+                        <div class="cbp-l-dropdown-item cbp-sort-item" data-sort=".cbp-l-grid-projects-title">Title</div>
+                        <div class="cbp-l-dropdown-item cbp-sort-item" data-sort=".cbp-l-grid-projects-desc">Description</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-direction cbp-l-direction--second">
+                <div class="cbp-l-direction-item cbp-sort-item" data-sortBy="string:asc"></div>
+                <div class="cbp-l-direction-item cbp-sort-item" data-sortBy="string:desc"></div>
+            </div>
         </div>
     </div>
 
-    <div id="js-grid-masonry-projects" class="cbp cbp-l-grid-masonry-projects">
+    <div id="js-grid-juicy-projects" class="cbp">
         <div class="cbp-item graphic">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x570/6b4d10" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ab19cd" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="http:s//scriptpie.com/cubeportfolio/img/?i=1200x900/2ad2f3" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Dashboard<br>by Paul Flavius Nechita">view larger</a>
+                            <a href="ajax-juicy-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/eb6888" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Dashboard<br>by Paul Flavius Nechita">view larger</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project1.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">BeenTo</a>
-            <div class="cbp-l-grid-masonry-projects-desc">web design / graphic</div>
+           
+           
+            <div class="cbp-l-grid-projects-title">Dashboard</div>
+            <div class="cbp-l-grid-projects-desc">Web Design / Graphic</div>
         </div>
         <div class="cbp-item web-design logos">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/2dcd64" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/af7705" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project2.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://scriptpie.com/cubeportfolio/img/?i=1200x900/8d285b" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="World Clock<br>by Paul Flavius Nechita">view larger</a>
+                            <a href="ajax-juicy-projects/project2.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/efc6c0" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="World Clock<br>by Paul Flavius Nechita">view larger</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project2.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">World Clock</a>
-            <div class="cbp-l-grid-masonry-projects-desc">logos / web design</div>
+            <div class="cbp-l-grid-projects-title">World Clock</div>
+            <div class="cbp-l-grid-projects-desc">Logo / Web Design</div>
         </div>
         <div class="cbp-item graphic logos">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/8ef4af" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/308f13" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project3.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://vimeo.com/14912890" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="To-Do Dashboard<br>by Tiberiu Neamu">view video</a>
+                            <a href="ajax-juicy-projects/project3.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="http://vimeo.com/14912890" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="To-Do Dashboard<br>by Tiberiu Neamu">view video</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project3.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">To-Do Dashboard</a>
-            <div class="cbp-l-grid-masonry-projects-desc">graphic / logos</div>
-        </div>
-        <div class="cbp-item identity web-design">
-            <div class="cbp-caption">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x570/0fb6fc" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap">
-                    <div class="cbp-l-caption-alignCenter">
-                        <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project4.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://scriptpie.com/cubeportfolio/img/?i=1200x900/701d46" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="WhereTO App<br>by Tiberiu Neamu">view larger</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="ajax-masonry-projects/project5.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">WhereTO App</a>
-            <div class="cbp-l-grid-masonry-projects-desc">web design / identity</div>
+            <div class="cbp-l-grid-projects-title">To-Do Dashboard</div>
+            <div class="cbp-l-grid-projects-desc">Graphic / Logo</div>
         </div>
         <div class="cbp-item web-design graphic">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x570/3329fb" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/2d3e6d" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project5.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://scriptpie.com/cubeportfolio/img/?i=1200x900/f2adde" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Events and  More<br>by Tiberiu Neamu">view larger</a>
+                            <a href="ajax-juicy-projects/project4.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/4900333&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Events and  More<br>by Tiberiu Neamu">view sound</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project4.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Events and More</a>
-            <div class="cbp-l-grid-masonry-projects-desc">web design / graphic</div>
+            <div class="cbp-l-grid-projects-title">Events and More</div>
+            <div class="cbp-l-grid-projects-desc">Web Design / Graphic</div>
+        </div>
+       <div class="cbp-item identity web-design">
+            <div class="cbp-slider-inline">
+                <div class="cbp-slider-wrapper">
+                    <div class="cbp-slider-item cbp-slider-item--active">
+                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/6eee29" class="cbp-lightbox" data-title="WhereTO App<br>by Tiberiu Neamu">
+                            <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ae557b" alt="">
+                        </a>
+                    </div>
+                    <div class="cbp-slider-item">
+                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/f2adde" class="cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita">
+                            <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b22eba" alt="">
+                        </a>
+                    </div>
+                    <div class="cbp-slider-item">
+                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/2ad2f3" class="cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita">
+                            <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ea52cf" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="cbp-slider-controls">
+                    <div class="cbp-slider-prev"></div>
+                    <div class="cbp-slider-next"></div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">WhereTO App</div>
+            <div class="cbp-l-grid-projects-desc">Web Design / Identity</div>
         </div>
         <div class="cbp-item identity web-design">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/0ddda1" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b08497" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project6.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://scriptpie.com/cubeportfolio/img/?i=1200x900/6d3898" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Ski * Buddy<br>by Tiberiu Neamu">view larger</a>
+                            <a href="ajax-juicy-projects/project6.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/701d46" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Ski * Buddy<br>by Tiberiu Neamu">view larger</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project6.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Ski * Buddy</a>
-            <div class="cbp-l-grid-masonry-projects-desc">identity / web design</div>
+            <div class="cbp-l-grid-projects-title">Ski * Buddy</div>
+            <div class="cbp-l-grid-projects-desc">Identity / Web Design</div>
         </div>
         <div class="cbp-item graphic logos">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/296f2c" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/319ca5" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project7.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://scriptpie.com/cubeportfolio/img/?i=1200x900/89ca22" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Seemple* Music<br>by Tiberiu Neamu">view larger</a>
+                            <a href="ajax-juicy-projects/project7.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="http://scriptpie.com/cubeportfolio/img/?i=audio/e8040a" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Seemple* Music<br>by Tiberiu Neamu">view sound</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project7.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Seemple* Music</a>
-            <div class="cbp-l-grid-masonry-projects-desc">graphic / logos</div>
+            <div class="cbp-l-grid-projects-title">Seemple* Music</div>
+            <div class="cbp-l-grid-projects-desc">Graphic / Logo</div>
         </div>
         <div class="cbp-item identity graphic">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/2cd735" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/33cbc1" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project8.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://www.youtube.com/watch?v=Bu9OiDmxCrQ" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Remind~Me More<br>by Tiberiu Neamu">view video</a>
+                            <a href="ajax-juicy-projects/project8.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="http://www.youtu.be/Bu9OiDmxCrQ" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Remind~Me More<br>by Tiberiu Neamu">view video</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project8.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Remind~Me More</a>
-            <div class="cbp-l-grid-masonry-projects-desc">identity / graphic</div>
+            <div class="cbp-l-grid-projects-title">Remind~Me More</div>
+            <div class="cbp-l-grid-projects-desc">Identity / Graphic</div>
         </div>
         <div class="cbp-item web-design graphic">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x570/0d87e0" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b4e2cf" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project9.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="ajax-juicy-projects/project9.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
                             <a href="https://www.ted.com/talks/andrew_bastawrous_get_your_next_eye_exam_on_a_smartphone" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Workout Buddy<br>by Tiberiu Neamu">view video</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project9.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Workout Buddy</a>
-            <div class="cbp-l-grid-masonry-projects-desc">web design / graphic</div>
+            <div class="cbp-l-grid-projects-title">Workout Buddy</div>
+            <div class="cbp-l-grid-projects-desc">Web Design / Graphic</div>
         </div>
         <div class="cbp-item identity web-design">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/4730d3" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/35fadd" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project10.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="ajax-juicy-projects/project10.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
                             <a href="https://www.youtube.com/watch?v=3wbvpOIIBQA" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Bills Bills Bills<br>by Cosmin Capitanu">view video</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project10.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Bills Bills Bills</a>
-            <div class="cbp-l-grid-masonry-projects-desc">identity / web design</div>
+            <div class="cbp-l-grid-projects-title">Bills Bills Bills</div>
+            <div class="cbp-l-grid-projects-desc">Identity / Web Design</div>
         </div>
         <div class="cbp-item identity logos">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/4b8e0b" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b611ec" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project11.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://scriptpie.com/cubeportfolio/img/?i=video/044cd4" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Generic Apps<br>by Cosmin Capitanu">view video</a>
+                            <a href="ajax-juicy-projects/project11.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="http://scriptpie.com/cubeportfolio/img/?i=video/044cd4" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Generic Apps<br>by Cosmin Capitanu">view video</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project11.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Generic Apps</a>
-            <div class="cbp-l-grid-masonry-projects-desc">identity / logos</div>
+            <div class="cbp-l-grid-projects-title">Generic Apps</div>
+            <div class="cbp-l-grid-projects-desc">Identity / Logo</div>
         </div>
         <div class="cbp-item graphic web-design">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="https://scriptpie.com/cubeportfolio/img/?i=380x360/d4c25d" alt="">
+                    <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ee3501" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                         <div class="cbp-l-caption-body">
-                            <a href="ajax-masonry-projects/project12.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
-                            <a href="https://vimeo.com/877053" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Speed Detector<br>by Cosmin Capitanu">view video</a>
+                            <a href="ajax-juicy-projects/project12.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow">more info</a>
+                            <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/26519543&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Speed Detector<br>by Cosmin Capitanu">view sound</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="ajax-masonry-projects/project12.html" class="cbp-singlePage cbp-l-grid-masonry-projects-title" rel="nofollow">Speed Detector</a>
-            <div class="cbp-l-grid-masonry-projects-desc">graphic / web design</div>
+            <div class="cbp-l-grid-projects-title">Speed Detector</div>
+            <div class="cbp-l-grid-projects-desc">Graphic / Web Design</div>
         </div>
     </div>
 
-    <div id="js-loadMore-masonry-projects" class="cbp-l-loadMore-button">
-        <a href="ajax-masonry-projects/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
+    <div id="js-loadMore-juicy-projects" class="cbp-l-loadMore-button">
+        <a href="ajax-juicy-projects/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
             <span class="cbp-l-loadMore-defaultText">LOAD MORE (<span class="cbp-l-loadMore-loadItems">6</span>)</span>
             <span class="cbp-l-loadMore-loadingText">LOADING...</span>
             <span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
@@ -332,15 +360,13 @@
     </div>
 
     <!-- load jquery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <!-- load cubeportfolio -->
     <script type="text/javascript" src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
     <!-- init cubeportfolio -->
-    <script type="text/javascript" src="js/main.js"></script>  
-    
-    
+    <script type="text/javascript" src="js/main.js"></script>    
     
     <!--Team-->
  
@@ -358,9 +384,9 @@
             <ul>
               <li><a href="https://www.facebook.com/stuartfoster?ref=br_rs" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               </li>
-              <li><a href="https://linkedin.com/in/stuartcfoster" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <li><a href="http://linkedin.com/in/stuartcfoster" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
               </li>
-              <li><a href="https://twitter.com/stuartfoster" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <li><a href="http://twitter.com/stuartfoster" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               </li>
               <li><a href="mailto:stuart@hustlemo.re?Subject=Hello%20stuart" data-toggle="tooltip" title="Email Me"><i class="fa fa-envelope" aria-hidden="true"></i></a>
               </li>
@@ -475,6 +501,7 @@
       </div>
     </div>
   </div>
+    </div>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!--Cube portfolio-->
@@ -500,7 +527,7 @@
         });
   </script>
   <!--Google maps API link-->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsbzuJDUEOoq-jS1HO-LUXW4qo0gW9FNs"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsbzuJDUEOoq-jS1HO-LUXW4qo0gW9FNs"></script>
   <script type="text/javascript">
     (function($, window, document, undefined) {
             'use strict';
@@ -555,7 +582,7 @@
         });
   </script>
   <!--Video Background-->
-  <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+  <script type="text/javascript" src="http://www.youtube.com/iframe_api"></script>
   <script type="text/javascript">
     $(document).ready(function() {
             'use strict';

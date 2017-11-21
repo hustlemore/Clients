@@ -2,13 +2,13 @@
     'use strict';
 
     // init cubeportfolio
-    $('#js-grid-masonry-projects').cubeportfolio({
-        filters: '#js-filters-masonry-projects',
+    $('#js-grid-juicy-projects').cubeportfolio({
+        filters: '#js-filters-juicy-projects',
         layoutMode: 'grid',
         defaultFilter: '*',
         animationType: 'quicksand',
         gapHorizontal: 35,
-        gapVertical: 25,
+        gapVertical: 30,
         gridAdjustment: 'responsive',
         mediaQueries: [{
             width: 1500,
@@ -18,19 +18,19 @@
             cols: 4,
         }, {
             width: 800,
-            cols: 3
+            cols: 3,
         }, {
             width: 480,
             cols: 2,
             options: {
                 caption: '',
-                gapHorizontal: 25,
+                gapHorizontal: 30,
                 gapVertical: 10,
             }
         }],
-        caption: 'zoom',
-        displayType: 'fadeIn',
-        displayTypeSpeed: 100,
+        caption: 'overlayBottomPush',
+        displayType: 'sequentially',
+        displayTypeSpeed: 80,
 
         // lightbox
         lightboxDelegate: '.cbp-lightbox',
@@ -63,10 +63,13 @@
 
         plugins: {
             loadMore: {
-                element: '#js-loadMore-masonry-projects',
+                element: '#js-loadMore-juicy-projects',
                 action: 'click',
                 loadItems: 3,
-            }
+            },
+            sort: {
+                element: '#js-sort-juicy-projects',
+             }
         },
     });
 })(jQuery, window, document);
